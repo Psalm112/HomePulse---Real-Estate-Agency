@@ -17,10 +17,10 @@ export default function Homepage() {
         password: string;
     };
     const {
-        register,
+        // register,
         handleSubmit,
         clearErrors,
-        formState: { errors },
+        // formState: { errors },
     } = useForm<Inputs>();
     const onSubmit: SubmitHandler<Inputs> = (data) => {
         console.log(data);

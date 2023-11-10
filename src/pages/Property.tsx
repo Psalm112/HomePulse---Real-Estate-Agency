@@ -1,7 +1,7 @@
-import { FaChevronDown, FaSearch } from "react-icons/fa"
+import { FaSearch } from "react-icons/fa"
 import Footer from "../components/Footer"
 import NavigationBar from "../components/NavigationBar"
-import { Button, Input, InputGroup, Menu, MenuButton, MenuItem, MenuList, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react"
+import { Button, Input, InputGroup, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, useDisclosure } from "@chakra-ui/react"
 import jsonData from "../assets/data.json";
 import PropertyList from "../components/PropertyList";
 
