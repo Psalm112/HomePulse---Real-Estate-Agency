@@ -2,6 +2,7 @@ import { Button, Image } from "@chakra-ui/react";
 import { Link as ReactRouterLink } from "react-router-dom";
 import { Link as ChakraLink } from "@chakra-ui/react";
 import { FaArrowRight, FaUser } from "react-icons/fa";
+import logo from "../assets/homepulselogo.jpeg"
 
 type navBarProps = {
     home: boolean;
@@ -25,12 +26,18 @@ export default function NavigationBar({
                         <Image
                             boxSize="40px"
                             objectFit="cover"
-                            src="./src/assets/homepulselogo.jpeg"
+                            src={logo}
                             alt="HOME PULSE LOGO"
                             className="inline"
                         />
                         &nbsp;
-                        <span className="mohave">HOME PJLSE</span>
+                        <ChakraLink
+                            as={ReactRouterLink}
+                            to="/"
+                        >
+                            <span className="mohave">HOME PJLSE</span>
+                        </ChakraLink>
+
                     </div>
                     <div className="flex flex-row items-center justify-center gap-x-5">
                         <ChakraLink

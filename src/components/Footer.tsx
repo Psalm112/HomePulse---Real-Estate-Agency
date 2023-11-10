@@ -30,7 +30,12 @@ export default function Footer() {
                         </ChakraLink>
                     </div>
                     <div className="flex flex-col items-center justify-center gap-y-5 mx-auto">
-                        <p className="mohave font-semibold text-xl">HOME PJLSE</p>
+                        <ChakraLink
+                            as={ReactRouterLink}
+                            to="/"
+                        >
+                            <p className="mohave font-semibold text-xl">HOME PJLSE</p>
+                        </ChakraLink>
                         <p className="text-center text-sm font-light">2023 &copy; HOME PULSE. All rights reserved</p>
                     </div>
                     <div className="flex flex-row gap-x-5 items-center">

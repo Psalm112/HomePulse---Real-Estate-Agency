@@ -3,6 +3,11 @@ import Footer from "../components/Footer";
 import NavigationBar from "../components/NavigationBar";
 import ServicesOutline from "../components/ServicesOutline";
 import Partners from "../components/Partners";
+import DOfinance from "../assets/team/DOfinance.png"
+import DOmarketing from "../assets/team/DOmarketing.png"
+import CEO from "../assets/team/CEO.png"
+import CTO from "../assets/team/CTO.png"
+import city from "../assets/city.png"
 
 export default function About() {
     return (
@@ -30,7 +35,7 @@ export default function About() {
                                     // boxSize='100px'
                                     objectFit="cover"
                                     // align="50% 50%"
-                                    src="./src/assets/city.png"
+                                    src={city}
                                     alt="Finex Logo"
                                     className="w-full animate-[slideup_1s_linear]"
                                 />
@@ -124,7 +129,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/DOmarketing.png"
+                                src={DOmarketing}
                                 alt="Director of Marketing"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -138,7 +143,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/CEO.png"
+                                src={CEO}
                                 alt="Chief Executive Officer"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -152,7 +157,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/CTO.png"
+                                src={CTO}
                                 alt="Chief of Operations"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -166,7 +171,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/DOfinance.png"
+                                src={DOfinance}
                                 alt="Director of Finance"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />

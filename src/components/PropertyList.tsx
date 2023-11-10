@@ -1,5 +1,15 @@
 import { Box, Button, Image, Text } from "@chakra-ui/react";
 import { FaBath, FaBed, FaChartArea, FaMapLocation, FaNairaSign } from "react-icons/fa6";
+import house1 from "../assets/house1.webp"
+import house2 from "../assets/house2.jpg"
+import house3 from "../assets/house3.jpg"
+import house4 from "../assets/house4.jpg"
+import house5 from "../assets/house5.webp"
+import house6 from "../assets/house6.jpg"
+import house7 from "../assets/house7.jpg"
+import house8 from "../assets/house8.webp"
+import house9 from "../assets/house9.jpg"
+import house10 from "../assets/house10.jpg"
 
 
 type property = {
@@ -24,7 +34,7 @@ export default function PropertyList({ property, index }: { property: property, 
                     // boxSize="300px"
                     height="250px"
                     objectFit="cover"
-                    src={`./src/assets/${property.image_link}`}
+                    src={property.image_link}
                     alt={property.name}
                     className="w-full inline"
                 />
