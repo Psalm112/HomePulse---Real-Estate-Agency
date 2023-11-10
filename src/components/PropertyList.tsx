@@ -24,7 +24,7 @@ export default function PropertyList({ property, index }: { property: property, 
                     // boxSize="300px"
                     height="250px"
                     objectFit="cover"
-                    src={`./src/assets/${property.image_link}`}
+                    src={`./assets/${property.image_link}`}
                     alt={property.name}
                     className="w-full inline"
                 />

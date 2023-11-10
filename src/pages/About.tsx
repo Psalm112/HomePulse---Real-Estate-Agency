@@ -30,7 +30,7 @@ export default function About() {
                                     // boxSize='100px'
                                     objectFit="cover"
                                     // align="50% 50%"
-                                    src="./src/assets/city.png"
+                                    src="./assets/city.png"
                                     alt="Finex Logo"
                                     className="w-full animate-[slideup_1s_linear]"
                                 />
@@ -124,7 +124,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/DOmarketing.png"
+                                src="./assets/team/DOmarketing.png"
                                 alt="Director of Marketing"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -138,7 +138,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/CEO.png"
+                                src="./assets/team/CEO.png"
                                 alt="Chief Executive Officer"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -152,7 +152,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/CTO.png"
+                                src="./assets/team/CTO.png"
                                 alt="Chief of Operations"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
@@ -166,7 +166,7 @@ export default function About() {
                                 // boxSize='40px'
                                 objectFit="cover"
                                 loading="lazy"
-                                src="./src/assets/team/DOfinance.png"
+                                src="./assets/team/DOfinance.png"
                                 alt="Director of Finance"
                                 className="w-full h-full transition-all ease-in-out duration-500 hover:scale-110"
                             />
