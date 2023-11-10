@@ -1,4 +1,10 @@
 import { Image } from "@chakra-ui/react";
+import decor from "../assets/partners/decor.png"
+import finex from "../assets/partners/Finex.png"
+import green from "../assets/partners/green.png"
+import homeloan from "../assets/partners/homeloan.png"
+import moveit from "../assets/partners/moveit.png"
+import smart from "../assets/partners/smart.png"
 
 export default function Partners() {
   return (
@@ -17,7 +23,7 @@ export default function Partners() {
               objectFit='cover'
               loading="lazy"
               // align="50% 50%"
-              src='./assets/partners/Finex.png'
+              src={finex}
               alt='Finex Logo'
               className="w-[50%]"
             />
@@ -28,7 +34,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./assets/partners/decor.png'
+              src={decor}
               alt='decor8 logo'
               className="w-[50%]"
             />
@@ -39,7 +45,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./assets/partners/smart.png'
+              src={smart}
               alt='smarthome logo'
               className="w-[50%]"
             />
@@ -50,7 +56,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./assets/partners/green.png'
+              src={green}
               alt='Greenspace Logo'
               className="w-[50%]"
             />
@@ -61,7 +67,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./assets/partners/homeloan.png'
+              src={homeloan}
               alt='Homeloan Logo'
               className="w-[50%]"
             />
@@ -72,7 +78,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./assets/partners/moveit.png'
+              src={moveit}
               alt='moveit logo'
               className="w-[50%]"
             />
