@@ -17,7 +17,7 @@ export default function Partners() {
               objectFit='cover'
               loading="lazy"
               // align="50% 50%"
-              src='./src/assets/partners/Finex.png'
+              src='./assets/partners/Finex.png'
               alt='Finex Logo'
               className="w-[50%]"
             />
@@ -28,7 +28,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./src/assets/partners/decor.png'
+              src='./assets/partners/decor.png'
               alt='decor8 logo'
               className="w-[50%]"
             />
@@ -39,7 +39,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./src/assets/partners/smart.png'
+              src='./assets/partners/smart.png'
               alt='smarthome logo'
               className="w-[50%]"
             />
@@ -50,7 +50,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./src/assets/partners/green.png'
+              src='./assets/partners/green.png'
               alt='Greenspace Logo'
               className="w-[50%]"
             />
@@ -61,7 +61,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./src/assets/partners/homeloan.png'
+              src='./assets/partners/homeloan.png'
               alt='Homeloan Logo'
               className="w-[50%]"
             />
@@ -72,7 +72,7 @@ export default function Partners() {
               // boxSize='40px'
               objectFit='cover'
               loading="lazy"
-              src='./src/assets/partners/moveit.png'
+              src='./assets/partners/moveit.png'
               alt='moveit logo'
               className="w-[50%]"
             />

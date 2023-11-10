@@ -24,6 +24,33 @@ type property = {
     location: string
 }
 export default function PropertyList({ property, index }: { property: property, index: number }) {
+    const getImage = (imageLink: string) => {
+        switch (imageLink) {
+            case 'house1.webp':
+                return house1;
+            case 'house2.jpg':
+                return house2;
+            case 'house3.jpg':
+                return house3;
+            case 'house4.jpg':
+                return house4;
+            case 'house5.webp':
+                return house5;
+            case 'house6.jpg':
+                return house6;
+            case 'house7.jpg':
+                return house7;
+            case 'house8.webp':
+                return house8;
+            case 'house9.jpg':
+                return house9;
+            case 'house10.jpg':
+                return house10;
+            // map other images similarly
+            // default:
+            //     return '';
+        }
+    };
     return (
         <>
             <Box
@@ -34,7 +61,7 @@ export default function PropertyList({ property, index }: { property: property, 
                     // boxSize="300px"
                     height="250px"
                     objectFit="cover"
-                    src={property.image_link}
+                    src={getImage(property.image_link)}
                     alt={property.name}
                     className="w-full inline"
                 />
