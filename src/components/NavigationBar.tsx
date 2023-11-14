@@ -20,8 +20,8 @@ export default function NavigationBar({
 }: navBarProps) {
     return (
         <>
-            <div className="Nav h-[10vh] w-full bg-[#030718] px-[6.5vw] py-[2.5vh]">
-                <div className="flex flex-row items-center justify-between text-offwhite">
+            <div className="Nav hidden h-[10vh] w-full bg-[#030718] px-[3vw] py-[2.5vh] md:px-[6.5vw] lg:block">
+                <div className="flex flex-row items-center justify-center text-offwhite xl:gap-x-5 xl:justify-between">
                     <div className="flex flex-row items-center">
                         <Image
                             boxSize="40px"
@@ -34,12 +34,13 @@ export default function NavigationBar({
                         <ChakraLink
                             as={ReactRouterLink}
                             to="/"
+                            className="hidden xl:inline"
                         >
                             <span className="mohave">HOME PJLSE</span>
                         </ChakraLink>
 
                     </div>
-                    <div className="flex flex-row items-center justify-center gap-x-5">
+                    <div className="flex flex-row items-center justify-center gap-x-5 mr-auto xl:mr-0">
                         <ChakraLink
                             as={ReactRouterLink}
                             to="/"

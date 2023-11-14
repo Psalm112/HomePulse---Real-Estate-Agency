@@ -49,114 +49,289 @@
     ],
     "properties": [
         {
-            "name": "Elegant Villa with a View",
-            "description": "Luxurious 4-bedroom villa with panoramic ocean view, exquisite interiors, and a spacious garden.",
+            "name": "Oceanview Paradise",
+            "type": "singleFamily",
+            "address": "17 Palm Grove, Victoria Island, Lagos, Nigeria",
+            "description": "A stunning home with panoramic views of the ocean, featuring modern design and spacious rooms.",
+            "price": 275000000,
+            "maintenanceFee": 60000,
             "features": {
                 "bedrooms": 4,
                 "bathrooms": 5,
-                "size_sqm": 350
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": true,
+                "gym": false,
+                "size": 5500
             },
-            "image_link": "house1.webp",
-            "location": "Lagos, Nigeria"
+            "image_link": "house1"
         },
         {
-            "name": "Cozy Family Home",
-            "description": "Charming 3-bedroom family home in a quiet neighborhood with a large backyard and modern kitchen.",
+            "name": "Magodo Bungalow",
+            "type": "singleFamily",
+            "address": "No. 45, Magodo, Lagos, Nigeria",
+            "description": "A charming and comfortable bungalow in a quiet and secure estate of Magodo. This property features a living room, a dining area, a kitchen, three bedrooms, and two bathrooms. The property also has a front porch, a backyard, and a parking space.",
+            "price": 40000000,
+            "maintenanceFee": 5000,
             "features": {
                 "bedrooms": 3,
                 "bathrooms": 2,
-                "size_sqm": 200
+                "furnished": false,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 1800
             },
-            "image_link": "house2.jpg",
-            "location": "Abuja, Nigeria"
+            "image_link": "house15"
+        },
+        {
+            "name": "Apapa Warehouse",
+            "type": "warehouse",
+            "address": "No. 30, Apapa, Lagos, Nigeria",
+            "description": "A large and functional warehouse in a convenient location of Apapa. This property features a main warehouse area, an office space, a store, and a toilet. The warehouse also has a high ceiling, a sliding door, a loading bay, and a security fence.",
+            "price": 300000000,
+            "maintenanceFee": 30000,
+            "features": {
+                "bedrooms": 0,
+                "bathrooms": 1,
+                "furnished": false,
+                "ac": false,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 5000
+            },
+            "image_link": "house12"
+        },
+        {
+            "name": "Ikorodu Industrial Building",
+            "type": "industrial",
+            "address": "No. 35, Ikorodu, Lagos, Nigeria",
+            "description": "A solid and spacious industrial building in a suitable location of Ikorodu. This property features a factory area, an office space, a store, and a toilet. The building also has a transformer, a generator, a water tank, and a security gate.",
+            "price": 150000000,
+            "maintenanceFee": 15000,
+            "features": {
+                "bedrooms": 0,
+                "bathrooms": 1,
+                "furnished": false,
+                "ac": false,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 4000
+            },
+            "image_link": "house13"
+        },
+        {
+            "name": "Gwagwalada City Center Apartment",
+            "type": "apartment",
+            "address": "25 Downtown Avenue, Abuja, Nigeria",
+            "description": "A modern apartment in the heart of the city, close to all amenities and entertainment.",
+            "price": 85000000,
+            "maintenanceFee": 30000,
+            "features": {
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "furnished": false,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": true,
+                "size": 1200
+            },
+            "image_link": "house2"
+        },
+        {
+            "name": "Lakefront Retreat",
+            "type": "singleFamily",
+            "address": "8 Water's Edge, Enugu, Nigeria",
+            "description": "A serene home nestled by the lake, offering a tranquil escape with beautiful nature views.",
+            "price": 195000000,
+            "maintenanceFee": 45000,
+            "features": {
+                "bedrooms": 3,
+                "bathrooms": 4,
+                "furnished": false,
+                "ac": true,
+                "parking": true,
+                "pool": true,
+                "gym": false,
+                "size": 3800
+            },
+            "image_link": "house3"
         },
         {
             "name": "Downtown Condo",
-            "description": "Stylish 2-bedroom condo in the heart of the city, close to all amenities and public transportation.",
+            "type": "condo",
+            "address": "50 Urban Square, Port Harcourt, Nigeria",
+            "description": "A stylish condo in the heart of the city, offering convenience and contemporary living.",
+            "price": 125000000,
+            "maintenanceFee": 35000,
             "features": {
                 "bedrooms": 2,
-                "bathrooms": 2,
-                "size_sqm": 120
+                "bathrooms": 3,
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": true,
+                "size": 1600
             },
-            "image_link": "house3.jpg",
-            "location": "Port Harcourt, Nigeria"
+            "image_link": "house4"
         },
         {
-            "name": "Seaside Retreat",
-            "description": "Spacious 5-bedroom beachfront property with a private pool, direct beach access, and stunning sunsets.",
-            "features": {
-                "bedrooms": 5,
-                "bathrooms": 4,
-                "size_sqm": 450
-            },
-            "image_link": "house4.jpg",
-            "location": "Calabar, Nigeria"
-        },
-        {
-            "name": "Modern Urban Loft",
-            "description": "2-bedroom loft in a trendy urban neighborhood with open concept design, exposed brick walls, and city views.",
-            "features": {
-                "bedrooms": 2,
-                "bathrooms": 1,
-                "size_sqm": 150
-            },
-            "image_link": "house5.webp",
-            "location": "Kano, Nigeria"
-        },
-        {
-            "name": "Rural Farmhouse",
-            "description": "3-bedroom farmhouse on a serene countryside with a large garden, barn, and peaceful surroundings.",
+            "name": "Hillside Retreat",
+            "type": "singleFamily",
+            "address": "12 Summit Avenue, Jos, Nigeria",
+            "description": "A charming home situated on the hills, offering panoramic views and a cozy ambiance.",
+            "price": 180000000,
+            "maintenanceFee": 40000,
             "features": {
                 "bedrooms": 3,
-                "bathrooms": 2,
-                "size_sqm": 280
+                "bathrooms": 4,
+                "furnished": false,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 3200
             },
-            "image_link": "house6.jpg",
-            "location": "Owerri, Nigeria"
+            "image_link": "house5"
         },
         {
-            "name": "Mountain Cabin Getaway",
-            "description": "Cozy 2-bedroom mountain cabin with a fireplace, mountain views, and close to hiking trails.",
+            "name": "Urban Loft",
+            "type": "apartment",
+            "address": "15 High Street, Kano, Nigeria",
+            "description": "A modern loft in the city, boasting contemporary design and convenient access to urban life.",
+            "price": 105000000,
+            "maintenanceFee": 30000,
             "features": {
                 "bedrooms": 2,
-                "bathrooms": 1,
-                "size_sqm": 100
+                "bathrooms": 2,
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": true,
+                "size": 1400
             },
-            "image_link": "house7.jpg",
-            "location": "Jos, Nigeria"
+            "image_link": "house6"
         },
         {
-            "name": "Golf Course Villa",
-            "description": "Spacious 6-bedroom villa overlooking a golf course, with a private pool and lush landscaping.",
+            "name": "Lekki Villa",
+            "type": "singleFamily",
+            "address": "No. 5, Lekki Phase 1, Lagos, Nigeria",
+            "description": "A luxurious and spacious villa with a stunning view of the Lekki Lagoon. This property features a large living room, a dining area, a kitchen, a study, a laundry room, and a guest toilet on the ground floor. The first floor has four en-suite bedrooms, a family lounge, and a balcony. The second floor has a master bedroom with a walk-in closet, a jacuzzi, and a terrace. The property also has a swimming pool, a gym, a garden, and a garage.",
+            "price": 350000000,
+            "maintenanceFee": 50000,
             "features": {
-                "bedrooms": 6,
+                "bedrooms": 5,
                 "bathrooms": 6,
-                "size_sqm": 500
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": true,
+                "gym": true,
+                "size": 5000
             },
-            "image_link": "house8.webp",
-            "location": "Enugu, Nigeria"
+            "image_link": "house7"
         },
         {
-            "name": "Historic Townhouse",
-            "description": "Restored 18th-century 4-bedroom townhouse with period features, courtyard, and historic charm.",
-            "features": {
-                "bedrooms": 4,
-                "bathrooms": 3,
-                "size_sqm": 220
-            },
-            "image_link": "house9.jpg",
-            "location": "Ibadan, Nigeria"
-        },
-        {
-            "name": "Lakefront Cottage",
-            "description": "Quaint 1-bedroom cottage on a peaceful lakefront with a private dock, perfect for a weekend getaway.",
+            "name": "Ikeja Apartment",
+            "type": "apartment",
+            "address": "No. 10, Allen Avenue, Ikeja, Lagos, Nigeria",
+            "description": "A cozy and modern apartment in the heart of Ikeja. This property features a living room, a kitchen, a bedroom, and a bathroom. The apartment is fully furnished and equipped with appliances, such as a refrigerator, a microwave, a TV, and an air conditioner. The property also has a generator, a security guard, and a parking space.",
+            "price": 25000000,
+            "maintenanceFee": 10000,
             "features": {
                 "bedrooms": 1,
                 "bathrooms": 1,
-                "size_sqm": 80
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 800
             },
-            "image_link": "house10.jpg",
-            "location": "Akure, Nigeria"
+            "image_link": "house8"
+        },
+        {
+            "name": "Victoria Island Condo",
+            "type": "condo",
+            "address": "No. 15, Victoria Island, Lagos, Nigeria",
+            "description": "A stylish and elegant condo in a prime location of Victoria Island. This property features a living room, a kitchen, two bedrooms, and two bathrooms. The condo is tastefully furnished and decorated with high-quality materials and fixtures. The property also has a balcony, a rooftop pool, a gym, a sauna, and a 24-hour concierge service.",
+            "price": 120000000,
+            "maintenanceFee": 20000,
+            "features": {
+                "bedrooms": 2,
+                "bathrooms": 2,
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": true,
+                "gym": true,
+                "size": 1500
+            },
+            "image_link": "house9"
+        },
+        {
+            "name": "Surulere Duplex",
+            "type": "dupTriPlex",
+            "address": "No. 20, Surulere, Lagos, Nigeria",
+            "description": "A spacious and comfortable duplex in a serene and secure neighborhood of Surulere. This property features a living room, a dining area, a kitchen, a guest toilet, and a store on the ground floor. The first floor has three bedrooms, two bathrooms, and a balcony. The property also has a borehole, a prepaid meter, and a parking space.",
+            "price": 45000000,
+            "maintenanceFee": 5000,
+            "features": {
+                "bedrooms": 3,
+                "bathrooms": 3,
+                "furnished": false,
+                "ac": false,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 2000
+            },
+            "image_link": "house10"
+        },
+        {
+            "name": "Ikoyi Office Building",
+            "type": "office",
+            "address": "No. 25, Ikoyi, Lagos, Nigeria",
+            "description": "A prestigious and well-maintained office building in a strategic location of Ikoyi. This property features a reception area, a conference room, a boardroom, six offices, four toilets, and a kitchenette on each floor. The building also has a lift, a generator, a CCTV system, a fire alarm system, and a security post.",
+            "price": 800000000,
+            "maintenanceFee": 100000,
+            "features": {
+                "bedrooms": 0,
+                "bathrooms": 16,
+                "furnished": false,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 10000
+            },
+            "image_link": "house11"
+        },
+        {
+            "name": "Yaba Triplex",
+            "type": "dupTriPlex",
+            "address": "No. 40, Yaba, Lagos, Nigeria",
+            "description": "A beautiful and cozy triplex in a lively and friendly neighborhood of Yaba. This property features a living room, a dining area, a kitchen, a guest toilet, and a laundry room on the ground floor. The first floor has two bedrooms, two bathrooms, and a balcony. The second floor has a master bedroom, a bathroom, and a terrace. The property also has a garden, a playground, and a parking space.",
+            "price": 65000000,
+            "maintenanceFee": 7000,
+            "features": {
+                "bedrooms": 3,
+                "bathrooms": 4,
+                "furnished": true,
+                "ac": true,
+                "parking": true,
+                "pool": false,
+                "gym": false,
+                "size": 2500
+            },
+            "image_link": "house14"
         }
     ]
 }

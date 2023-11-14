@@ -1,4 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { ChakraProvider } from "@chakra-ui/react";
 import Login from "./modules/authentication/Login.js";
 import Register from "./modules/authentication/Register.js";
 import Homepage from "./pages/Homepage.js";
@@ -24,18 +25,6 @@ const router = createBrowserRouter([
     element: <Property />,
   },
   {
-    path: "/property/sales",
-    element: <Login />,
-  },
-  {
-    path: "/property/rentals",
-    element: <Login />,
-  },
-  {
-    path: "/property/commercial",
-    element: <Login />,
-  },
-  {
     path: "/login",
     element: <Login />,
   },
@@ -43,12 +32,24 @@ const router = createBrowserRouter([
     path: "/register",
     element: <Register />,
   },
+  // {
+  //   path: "/property/sales",
+  //   element: <Login />,
+  // },
+  // {
+  //   path: "/property/rentals",
+  //   element: <Login />,
+  // },
+  // {
+  //   path: "/property/commercial",
+  //   element: <Login />,
+  // },
 ]);
 export default function App() {
   return (
-    <>
+    <ChakraProvider>
       <RouterProvider router={router} />
-    </>
+    </ChakraProvider>
   );
 }
 

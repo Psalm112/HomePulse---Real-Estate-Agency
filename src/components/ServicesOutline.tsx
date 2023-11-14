@@ -4,10 +4,10 @@ import { Link as ChakraLink } from "@chakra-ui/react";
 export default function ServicesOutline() {
     return (
         <>
-            <div className="bg-[#f9f9f9] px-[6.5vw] py-[10vh]">
-                <div className="grid grid-cols-4 grid-rows-2 gap-5">
-                    <h2 className="col-span-2 text-3xl">Services</h2>
-                    <div className="col-start-1 row-start-2 col-span-2">
+            <div className="bg-[#f9f9f9] px-[3vw] py-[10vh] md:px-[6.5vw]">
+                <div className="grid grid-cols-1 grid-rows-1 gap-5 md:grid-cols-4 md:grid-rows-2">
+                    <h2 className="text-3xl md:col-span-2">Services</h2>
+                    <div className="row-start-2 md:col-start-1 md:col-span-2">
                         <p className="text-lg">
                             Our services encompass property{" "}
                             <span className="text-[#94949b]">sales</span>,{" "}

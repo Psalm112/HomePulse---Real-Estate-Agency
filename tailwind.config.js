@@ -32,6 +32,10 @@ export default {
           "0%": { transform: "translatey(100%)" },
           "100%": { transform: "translatey(0%)" },
         },
+        // slideupsm: {
+        //   "0%": { transform: "translatey(100%)" },
+        //   "100%": { transform: "translatey(0%)" },
+        // },
       },
     },
   },
