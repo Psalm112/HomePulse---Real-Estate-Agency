@@ -14,8 +14,13 @@ import Iframe from "react-iframe";
 import NavigationBarSm from "../components/NavigationBarSm";
 import { FaEnvelope, FaPhone, FaUser } from "react-icons/fa6";
 import Mortgage from "../components/Mortgage";
+import { ChangeEvent, useState } from "react";
 
 export default function Contact() {
+  const [service, setService] = useState<string>("sales");
+  const submit = (e: ChangeEvent<HTMLFormElement>) => {
+    e.preventDefault();
+  };
   return (
     <>
       <NavigationBar
@@ -41,8 +46,27 @@ export default function Contact() {
         </div>
       </div>
       <div className="w-full h-full px-[3vw] py-[5vh] bg-[#f9f9f9] md:px-[6.5vw]">
-        <form className="w-full">
+        <div className="mt-5">
           <h2 className="text-3xl">Contact Form</h2>
+          <h3 className="text-xl">- Services</h3>
+          <RadioGroup
+            defaultValue="sales"
+            onChange={setService}
+            colorScheme="gray"
+          >
+            <Stack spacing={4} direction="row" className="!flex-wrap">
+              <Radio value="sales">Property Sales</Radio>
+              <Radio value="rentals">Property Rentals</Radio>
+              <Radio value="commercial">Commercial Property</Radio>
+              <Radio value="decor">Interior Design</Radio>
+            </Stack>
+          </RadioGroup>
+        </div>
+        <form
+          onSubmit={(e: ChangeEvent<HTMLFormElement>) => submit(e)}
+          className="w-full"
+        >
+          <h3 className="text-xl">- Form</h3>
           <div className="grid grid-cols-1 grid-rows-2 gap-5 items-center justify-center sm:grid-cols-2 sm:grid-rows-1">
             <div>
               <label>
@@ -56,7 +80,7 @@ export default function Contact() {
                     size="lg"
                     type="text"
                     variant="unstyled"
-                    placeholder="Phone number"
+                    placeholder="John Doe"
                     className="py-2 !bg-[rgba(3,_7,_24,_0.1)] !text-[#030718] border-[2px] border-transparent focus:border-[#030718] focus:!bg-transparent"
                   />
                 </InputGroup>
@@ -72,7 +96,7 @@ export default function Contact() {
                     size="lg"
                     type="email"
                     variant="unstyled"
-                    placeholder="Phone number"
+                    placeholder="johnDoe@gmail.com"
                     className="py-2 !bg-[rgba(3,_7,_24,_0.1)] !text-[#030718] border-[2px] border-transparent focus:border-[#030718] focus:!bg-transparent"
                   />
                 </InputGroup>
@@ -86,9 +110,9 @@ export default function Contact() {
                   </InputLeftElement>
                   <Input
                     size="lg"
-                    type="email"
+                    type="tel"
                     variant="unstyled"
-                    placeholder="Phone number"
+                    placeholder="2347024513655"
                     className="py-2 !bg-[rgba(3,_7,_24,_0.1)] !text-[#030718] border-[2px] border-transparent focus:border-[#030718] focus:!bg-transparent"
                   />
                 </InputGroup>
@@ -102,20 +126,6 @@ export default function Contact() {
                 className="!h-full w-full !bg-[rgba(3,_7,_24,_0.1)] !text-[#030718] !px-2 border-[2px] border-transparent focus:border-[#030718] focus:!bg-transparent"
               />
             </div>
-          </div>
-          <div className="mt-5">
-            <h3 className="text-2xl">Services</h3>
-            <RadioGroup
-              defaultValue="sales"
-              // onChange={ }
-            >
-              <Stack spacing={4} direction="row" className="!flex-wrap">
-                <Radio value="sales">Property Sales</Radio>
-                <Radio value="rentals">Property Rentals</Radio>
-                <Radio value="commercial">Commercial Property</Radio>
-                <Radio value="decor">Interior Design</Radio>
-              </Stack>
-            </RadioGroup>
           </div>
           <div className="mx-auto mt-5 max-w-[200px]">
             <Input
