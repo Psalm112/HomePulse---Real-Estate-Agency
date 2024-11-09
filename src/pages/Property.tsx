@@ -168,7 +168,7 @@ export default function Property() {
                   size="lg"
                   type="text"
                   variant="unstyled"
-                  placeholder="Phone number"
+                  placeholder="Lagos"
                   className="py-2 !bg-[rgba(3,_7,_24,_0.1)] !text-[#030718] border-[1px] border-transparent !rounded-s-[3px] !rounded-e-none focus:border-[#030718] focus:!bg-transparent"
                 />
                 <InputRightElement
