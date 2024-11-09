@@ -7,7 +7,7 @@ import { Link as ChakraLink } from "@chakra-ui/react";
 function Illustration({ isLogin }: { isLogin: boolean }) {
   return (
     <>
-      <div className="hidden w-full h-screen text-offwhite bg-[url('../assets/onboarding.jpg')] bg-cover bg-no-repeat bg-[30%_50%] md:table xl:bg-[50%] ">
+      <div className="hidden w-full h-screen text-offwhite bg-[url('./assets/onboarding.jpg')] bg-cover bg-no-repeat bg-[30%_50%] md:table xl:bg-[50%] ">
         <Container className="table-cell align-middle bg-black/[0.5]">
           <h2 className="mx-[5vw] mb-5 font-semibold text-3xl">
             Welcome to HomePulse!
